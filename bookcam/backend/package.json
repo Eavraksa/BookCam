@@ -1,0 +1,23 @@
+{
+  "name": "bookcam-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BookCam REST API (Express + Firebase Admin SDK)",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18.11"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "make-admin": "node scripts/makeAdmin.js",
+    "seed": "node scripts/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "firebase-admin": "^13.0.0",
+    "helmet": "^8.0.0"
+  }
+}
